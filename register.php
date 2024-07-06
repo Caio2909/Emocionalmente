@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST"){
     $password = $_POST["password"];
 }
 
-$test = "SELECT * FROM user WHERE login = '$name'";
+$test = "SELECT * FROM medico WHERE nome = '$name'";
 $result= $conn->query($test);
 
 if ($result->num_rows > 0){
@@ -24,7 +24,7 @@ if ($result->num_rows > 0){
 
 }
 else{
-    $stmt = $conn->prepare("INSERT INTO user (login, senha)
+    $stmt = $conn->prepare("INSERT INTO medico (nome, senha)
     VALUES (?, ?)");
     $stmt->bind_param("ss", $name, $password);
     $stmt->execute();
