@@ -58,6 +58,14 @@
 
 
   </div>
+  <form>
+    Nome: <input type="text" id="name" ><br>
+    Genero: <select id="gender">
+        <option value="male">H</option>
+        <option value="female">M</option>
+    </select><br>
+    Senha: <input type="password" id="password"><br>
+  </form>
   <button class="button" type="button" id="submitBtn">Enviar</button>
   <script src="criarAvatar.js"></script>
 </body>

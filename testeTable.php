@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela de Pacientes</title>
     <link rel="stylesheet" href="stylesTable.css">
 </head>
-
 <body>
     <div class="header">
         <img src="imgs/image.png" alt="Logo">
@@ -23,7 +21,7 @@
                 </tr>
             </thead>
             <tbody>
-                <!-- Dados dos pacientes serão inseridos aqui -->
+                <!-- dados dos pacientes -->
             </tbody>
         </table>
     </div>

@@ -1,9 +1,10 @@
-// script.js
 document.addEventListener("DOMContentLoaded", () => {
+
     const patients = [
         { name: "João Silva", age: 7, lastConsult: "2023-07-18", gender: "male" },
         { name: "Maria Oliveira", age: 12, lastConsult: "2023-07-15", gender: "female" },
         { name: "Pedro Santos", age: 11, lastConsult: "2023-07-10", gender: "male" }
+        //ler dados do banco aqui
     ];
 
     const tableBody = document.querySelector("#patientsTable tbody");

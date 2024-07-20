@@ -8,6 +8,9 @@ const hairButtons = document.querySelectorAll('.hairCorButton');
 const usaOculos = document.querySelectorAll('.oculosInput')
 const sentimento = document.querySelectorAll('.sentimentoInput')
 const hairType = document.getElementById('hairType');
+const gender = document.getElementById('gender')
+const name = document.getElementById('name')
+const password = document.getElementById('password')
 
 let selectedSkinColor = 'ffdbac'
 let selectedHairColor = 'a2826D'
@@ -67,6 +70,7 @@ hairButtons.forEach(button =>{
     });
 });
 submitBtn.addEventListener('click', () => {
+    
     //enviar para o banco de dados aqui
 })
 
