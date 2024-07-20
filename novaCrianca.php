@@ -1,14 +1,19 @@
+
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styleAvatar.css">
-  <title>Crie seu Avatar!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template</title>
+    <link rel="stylesheet" href="novaCrianca.css">
+    <div class="header">
+            <img src="imgs/image.png" >
+            <h1>EMOCIONALMENTE</h1>
+        </div>
 </head>
-<body>
-  <div id="avatarContainer">
+<body> 
+<div id="avatarContainer">
     <img height="200px" id="avatar" />
   </div>
-
   <div id="colorButtons"><!-- Pele -->
     <label for="skinColorSelect">Escolha sua cor de pele:</label><br>
     <button type="button" class="skinCorButton colorButton" value="ffdbac" style="background-color:#ffdbac;"></button>
@@ -21,6 +26,8 @@
   <div id="colorButtons"><!-- Cabelo-->
     <label for="hairTypeSelect">Como é seu cabelo?</label><br>
     <select class="hairType" id="hairType">
+        <option value="shortRound">Baixo</option>
+        <option value="dreads01">Dreads</option>
         <option value="curvy">Curvo</option>
         <option value="curly">Cacheado</option>
         <option value="longButNotTooLong">Médio</option>
@@ -51,7 +58,7 @@
 
 
   </div>
-  <button type="button" id="submitBtn">Enviar</button>
+  <button class="button" type="button" id="submitBtn">Enviar</button>
   <script src="criarAvatar.js"></script>
 </body>
 </html>

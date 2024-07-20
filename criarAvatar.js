@@ -66,5 +66,8 @@ hairButtons.forEach(button =>{
         updateAvatar();
     });
 });
+submitBtn.addEventListener('click', () => {
+    //enviar para o banco de dados aqui
+})
 
 window.onload = updateAvatar;
